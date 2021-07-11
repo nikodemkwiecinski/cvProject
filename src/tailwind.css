@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@media (orientation: portrait) and (max-width: 767px){
+  main section.main-panel{
+    height: 75vh;
+  }
+  
+}
+
+@media (orientation: portrait) and (max-width: 1050px){
+  main section.main-panel img.left-panel-img{
+    @apply hidden;
+  }
+  
+}
+
+@media (orientation: landscape) and (max-width: 850px){
+  main section.main-panel{
+    height: 125vh;
+    @apply my-6;
+  }
+}
