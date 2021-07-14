@@ -1,12 +1,189 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible"
+        content="IE=edge">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"
+        href="tailwind.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
   <title>User page</title>
+  <script src="https://kit.fontawesome.com/c5d4e6fb7f.js"></script>
 </head>
-<body>
-  test
+<body class="font-body">
+  <nav class="user-nav h-16 bg-myOrange shadow-lg relative text-white grid grid-rows-1 grid-cols-5 sm:grid-cols-5 md:grid-cols-10 xl:grid-cols-13">
+    <i class="nav-icon fas fa-search leading-11 text-3xl cursor-pointer col-start-5 sm:col-start-5 md:col-start-8 xl:col-start-11 xl:pr-4 text-center"></i>
+    <p class="nav-text break-words px-6 text-center py-2 col-start-1 col-end-4 sm:col-start-6 sm:col-end-6 md:col-start-9 md:col-end-11 xl:col-start-12 xl:col-end-13">
+      Signed as:
+      <br>
+      Lorem Ipsum
+    </p>
+  </nav>
+  <main class="min-h-screen bg-mainBgc flex text-white">
+    <div class="wrapper w-10/12 h-halfScreen m-auto grid grid-rows-8 grid-cols-10 gap-6">
+      <section class="col-start-1 col-end-6 row-start-1 row-end-9 shadow-lg rounded bg-gray-100">
+        <nav class="h-16 bg-myOrange shadow-lg relative rounded flex">
+          <p class="text-3xl m-auto">Your walks</p>
+        </nav>
+        <div class="table text-black rounded text-md mx-auto mt-8 flex">
+          <section class="flex">
+            <div>
+              <p>Date:</p>
+              <p>DD/MM/YYYY</p>
+            </div>
+            <div class="break-words">
+              <p>Location: </p>
+              <p>Lorem</p>
+            </div>
+            <div >
+              <p>Weather:</p>
+              <p><i class="fas fa-cloud text-lg"></i></p>
+            </div>
+            <div>
+              <p>Distance:</p>
+              <p>XX km</p>
+            </div>
+          </section>
+          <section class="flex">
+            <div >
+              <p>Date:</p>
+              <p>DD/MM/YYYY</p>
+            </div>
+            <div >
+              <p>Location: </p>
+              <p>Lorem</p>
+            </div>
+            <div >
+              <p>Weather:</p>
+              <p><i class="fas fa-cloud text-lg"></i></p>
+            </div>
+            <div>
+              <p>Distance:</p>
+              <p>XX km</p>
+            </div>
+          </section>
+          <section class="flex">
+            <div >
+              <p>Date:</p>
+              <p>DD/MM/YYYY</p>
+            </div>
+            <div >
+              <p>Location: </p>
+              <p>Lorem</p>
+            </div>
+            <div >
+              <p>Weather:</p>
+              <p><i class="fas fa-cloud text-lg"></i></p>
+            </div>
+            <div>
+              <p>Distance:</p>
+              <p>XX km</p>
+            </div>
+          </section>
+          <section class="flex">
+            <div >
+              <p>Date:</p>
+              <p>DD/MM/YYYY</p>
+            </div>
+            <div >
+              <p>Location: </p>
+              <p>Lorem</p>
+            </div>
+            <div >
+              <p>Weather:</p>
+              <p><i class="fas fa-cloud text-lg"></i></p>
+            </div>
+            <div>
+              <p>Distance:</p>
+              <p>XX km</p>
+            </div>
+          </section>
+          <section class="flex">
+            <div >
+              <p>Date:</p>
+              <p>DD/MM/YYYY</p>
+            </div>
+            <div >
+              <p>Location: </p>
+              <p>Lorem</p>
+            </div>
+            <div >
+              <p>Weather:</p>
+              <p><i class="fas fa-cloud text-lg"></i></p>
+            </div>
+            <div>
+              <p>Distance:</p>
+              <p>XX km</p>
+            </div>
+          </section>
+        </div>
+      </section>
+      <section class="col-start-6 col-end-11 row-start-1 row-end-6 shadow-lg rounded bg-gray-100">
+        <nav class="h-14 bg-myOrange shadow-lg relative rounded flex">
+          <p class="text-2xl m-auto">Last walk</p>
+        </nav>
+        <div class="flex text-black justify-around">
+          <section class="p-4 pl-10">
+            <p class="pb-2 text-2xl">Route:</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2434.2599793954896!2d16.95195235154391!3d52.40196427969287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47045b127bb5da31%3A0xa12aaf26f02a6aad!2sJana%20Paw%C5%82a%20II%2C%2061-131%20Pozna%C5%84!5e0!3m2!1spl!2spl!4v1626300994310!5m2!1spl!2spl" width="150" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </section>
+          <section class="text-2xl">
+            <div class="py-7">
+              <p>Distance:</p>
+              <p>XX km</p>
+            </div>
+            <div class="pb-7">
+              <p>Pace:</p>
+              <p>XX km/h</p>
+            </div>
+            <div>
+              <p>Date:</p>
+              <p>DD/MM/YYYY</p>
+            </div>
+          </section>
+        </div>
+      </section>
+      <section class="col-start-6 col-end-11 row-start-6 row-end-9 shadow-lg rounded bg-gray-100">
+        <nav class="h-12 bg-myOrange shadow-lg relative rounded flex">
+          <p class="text-xl m-auto">Statistics</p>
+        </nav>
+          <section class="text-black flex justify-around mt-2">
+            <div class="">
+              <p class="text-center mb-2">Average distance</p>
+              <div class="w-40 h-40 relative">
+                <svg class="w-40 h-40 relative">
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div>
+                  <h2>XX km</h2>
+                </div>
+              </div>
+            </div>
+            <div>
+              <p class="text-center mb-2">Average pace</p>
+              <div class="w-40 h-40 relative">
+                <svg class="w-40 h-40 relative">
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div>
+                  <h2>XX km\h</h2>
+                </div>
+            </div>
+          </section>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <p class="h-16 bg-myOrange leading-11 px-4 text-white">
+      &copy; Nikodem Kwieciński 2021
+    </p>
+  </footer>
 </body>
 </html>
