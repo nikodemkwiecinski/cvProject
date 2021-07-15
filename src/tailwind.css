@@ -108,6 +108,13 @@ nav i.nav-icon {
   }
 }
 
+@media (orientation: portrait) {
+  iframe {
+    width: 150px;
+    height: 350px;
+  }
+}
+
 @media (min-width: 400px) {
   .user-nav {
     @apply grid-cols-7;
