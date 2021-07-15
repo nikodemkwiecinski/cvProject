@@ -37,6 +37,9 @@ module.exports = {
       backgroundImage: theme => ({
         'left-panel': "url('../img/loginPanelBgc.png')"
       }),
+      borderColor: theme =>({
+        'borderOrange': '#FF9F10'
+      }),
       fontFamily:{
         'body': ['Roboto', 'sans-serif']
       }

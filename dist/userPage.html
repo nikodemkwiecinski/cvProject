@@ -16,176 +16,180 @@
   <script src="https://kit.fontawesome.com/c5d4e6fb7f.js"></script>
 </head>
 <body class="font-body">
-  <section class="loop invisible fixed top-2/4 left-2/4 transform -translate-y-2/4 -translate-x-2/4 bg-mainBgc text-black w-half h-half z-10 rounded">
+  <section class="loop invisible fixed top-2/4 left-2/4 transform -translate-y-2/4 -translate-x-2/4 bg-mainBgc text-black w-auto xl:w-half h-halfScreen xl:h-half z-10 rounded overflow-scroll xl:overflow-visible">
     <nav class="text-center my-4 relative">
       <span class="text-2xl">Filter your walks</span>
       <i class="far fa-times-circle absolute right-2 top-0.5 cursor-pointer"></i>
     </nav>
     <form action="" class="mt-12">
-      <label for="" class="flex justify-around">
-        <input type="text" name="Location input" id="" placeholder="Location input" class="h-16 w-80 shadow-lg rounded">
-        <input type="text" name="Date input" id="" placeholder="Date input" class="h-16 shadow-lg w-80 rounded">
+      <label for="" class="flex justify-around flex-col xl:flex-row">
+        <input type="text" name="Location input" id="" placeholder="Location input" class="h-16 w-64 xl:w-80 shadow-lg rounded mx-4 xl:mx-0 mb-6 xl:mb-0">
+        <input type="text" name="Date input" id="" placeholder="Date input" class="h-16 shadow-lg w-64 xl:w-80 rounded mx-4 xl:mx-0">
       </label>
-      <label for="" class="flex justify-around mt-12 text-xl">
-        <div class="bg-white shadow-lg rounded w-48 h-16">
+      <label for="" class="flex justify-around mt-12 text-xl flex-col xl:flex-row">
+        <div class="bg-white shadow-lg rounded w-64 xl:w-48 h-16 mx-4 xl:mx-0 mb-6 xl:mb-0">
           <p class="text-center">Highest distance</p>
           <input type="radio" name="distance" id="" class="mx-auto block my-2">
         </div>
-        <div class="bg-white shadow-lg rounded w-48 h-16">
+        <div class="bg-white shadow-lg rounded w-64 xl:w-48 h-16 mx-4 xl:mx-0 mb-6 xl:mb-0">
           <p class="text-center">Lowest distance</p>
           <input type="radio" name="distance" id="" class="mx-auto block my-2">
         </div>
-        <div class="bg-white shadow-lg rounded w-48 h-16">
+        <div class="bg-white shadow-lg rounded w-64 xl:w-48 h-16 mx-4 xl:mx-0 mb-6 xl:mb-0">
           <p class="text-center">Highest pace</p>
           <input type="radio" name="distance" id="" class="mx-auto block my-2">
         </div>
       </label>
-      <label for="" class="flex mt-20">
+      <label for="" class="flex xl:mt-20">
         <input type="submit" value="Search" class="mx-auto w-52 h-12 rounded shadow-lg bg-myOrange cursor-pointer">
       </label>
     </form>
     <div></div>
   </section>
-  <nav class="user-nav h-16 bg-myOrange shadow-lg relative text-white grid grid-rows-1 grid-cols-5 sm:grid-cols-5 md:grid-cols-10 xl:grid-cols-13">
-    <i class="nav-icon fas fa-search leading-11 text-3xl cursor-pointer col-start-5 sm:col-start-5 md:col-start-8 xl:col-start-11 xl:pr-4 text-center"></i>
-    <p class="nav-text break-words px-6 text-center py-2 col-start-1 col-end-4 sm:col-start-6 sm:col-end-6 md:col-start-9 md:col-end-11 xl:col-start-12 xl:col-end-13">
+  <nav class="user-nav h-16 bg-myOrange shadow-lg relative text-white grid grid-rows-1 grid-cols-5 sm:grid-cols-5 xl:grid-cols-10 xl:grid-cols-13">
+    <i class="nav-icon fas fa-search leading-11 text-3xl cursor-pointer col-start-5 sm:col-start-5 xl:col-start-8 xl:col-start-11 xl:pr-4 text-center"></i>
+    <p class="nav-text break-words px-6 text-center py-2 col-start-1 col-end-4 sm:col-start-6 sm:col-end-6 xl:col-start-9 xl:col-end-11 xl:col-start-12 xl:col-end-13">
       Signed as:
       <br>
       Lorem Ipsum
     </p>
   </nav>
   <main class="min-h-screen bg-mainBgc flex text-white">
-    <div class="wrapper w-10/12 h-halfScreen m-auto grid grid-rows-8 grid-cols-10 gap-6">
-      <section class="col-start-1 col-end-6 row-start-1 row-end-9 shadow-lg rounded bg-gray-100">
-        <nav class="h-16 bg-myOrange shadow-lg relative rounded flex">
+    <div class="wrapper w-10/12 xl:h-halfScreen m-auto xl:grid grid-rows-8 grid-cols-10 gap-6 mt-12 xl:mt-12">
+      <section class="col-start-1 col-end-6 row-start-1 row-end-9 shadow-lg rounded bg-gray-100 overflow-y-scroll overflow-x-hidden h-halfScreen mb-12 xl:mb-0">
+        <nav class="h-16 bg-myOrange shadow-lg sticky top-0 rounded flex">
           <p class="text-3xl m-auto">Your walks</p>
         </nav>
-        <div class="table text-black rounded text-md mx-auto mt-8 flex">
-          <section class="flex">
-            <div>
+        <div class="table text-black rounded text-lg mx-auto mt-8 flex flex-col xl:flex-row xl:flex-row w-half xl:w-auto">
+          <section class="flex flex-col xl:flex-row xl:flex-row">
+            <div class="border-r-0 xl:border-r-2 xl:border-r-2 mb-2 xl:mb-0">
               <p>Date:</p>
               <p>DD/MM/YYYY</p>
             </div>
-            <div class="break-words">
+            <div class="border-r-0 xl:border-r-2 xl:border-r-2 mb-2 xl:mb-0">
               <p>Location: </p>
               <p>Lorem</p>
             </div>
-            <div >
+            <div  class="border-r-0 xl:border-r-2 xl:border-r-2 mb-2 xl:mb-0">
               <p>Weather:</p>
               <p><i class="fas fa-cloud text-lg"></i></p>
             </div>
-            <div>
+            <div class="border-r-0 xl:border-r-2 xl:border-r-2 mb-2 xl:mb-0">
               <p>Distance:</p>
               <p>XX km</p>
             </div>
           </section>
-          <section class="flex">
-            <div >
+          <hr class="xl:invisible bg-myOrange h-1">
+          <section class="flex flex-col xl:flex-row xl:flex-row">
+            <div  class="border-r-0 xl:border-r-2 xl:border-r-2 mb-2 xl:mb-0"">
               <p>Date:</p>
               <p>DD/MM/YYYY</p>
             </div>
-            <div >
+            <div  class="border-r-0 xl:border-r-2 xl:border-r-2 mb-2 xl:mb-0"">
               <p>Location: </p>
               <p>Lorem</p>
             </div>
-            <div >
+            <div  class="border-r-0 xl:border-r-2 xl:border-r-2 mb-2 xl:mb-0"">
               <p>Weather:</p>
               <p><i class="fas fa-cloud text-lg"></i></p>
             </div>
-            <div>
+            <div class="border-r-0 xl:border-r-2 xl:border-r-2 mb-2 xl:mb-0"">
               <p>Distance:</p>
               <p>XX km</p>
             </div>
           </section>
-          <section class="flex">
-            <div >
+          <hr class="xl:invisible bg-myOrange h-1">
+          <section class="flex flex-col xl:flex-row xl:flex-row">
+            <div  class="border-r-0 xl:border-r-2 xl:border-r-2 mb-2 xl:mb-0"">
               <p>Date:</p>
               <p>DD/MM/YYYY</p>
             </div>
-            <div >
+            <div  class="border-r-0 xl:border-r-2 xl:border-r-2 mb-2 xl:mb-0"">
               <p>Location: </p>
               <p>Lorem</p>
             </div>
-            <div >
+            <div  class="border-r-0 xl:border-r-2 xl:border-r-2 mb-2 xl:mb-0"">
               <p>Weather:</p>
               <p><i class="fas fa-cloud text-lg"></i></p>
             </div>
-            <div>
+            <div class="border-r-0 xl:border-r-2 xl:border-r-2 mb-2 xl:mb-0"">
               <p>Distance:</p>
               <p>XX km</p>
             </div>
           </section>
-          <section class="flex">
-            <div >
+          <hr class="xl:invisible bg-myOrange h-1">
+          <section class="flex flex-col xl:flex-row xl:flex-row">
+            <div  class="border-r-0 xl:border-r-2 xl:border-r-2 mb-2 xl:mb-0"">
               <p>Date:</p>
               <p>DD/MM/YYYY</p>
             </div>
-            <div >
+            <div  class="border-r-0 xl:border-r-2 xl:border-r-2 mb-2 xl:mb-0"">
               <p>Location: </p>
               <p>Lorem</p>
             </div>
-            <div >
+            <div  class="border-r-0 xl:border-r-2 xl:border-r-2 mb-2 xl:mb-0"">
               <p>Weather:</p>
               <p><i class="fas fa-cloud text-lg"></i></p>
             </div>
-            <div>
+            <div class="border-r-0 xl:border-r-2 xl:border-r-2 mb-2 xl:mb-0"">
               <p>Distance:</p>
               <p>XX km</p>
             </div>
           </section>
-          <section class="flex">
-            <div >
+          <hr class=" xl:invisible bg-myOrange h-1">
+          <section class="flex flex-col xl:flex-row xl:flex-row">
+            <div  class="border-r-0 xl:border-r-2 xl:border-r-2 mb-2 xl:mb-0"">
               <p>Date:</p>
               <p>DD/MM/YYYY</p>
             </div>
-            <div >
+            <div  class="border-r-0 xl:border-r-2 xl:border-r-2 mb-2 xl:mb-0"">
               <p>Location: </p>
               <p>Lorem</p>
             </div>
-            <div >
+            <div  class="border-r-0 xl:border-r-2 xl:border-r-2 mb-2 xl:mb-0"">
               <p>Weather:</p>
               <p><i class="fas fa-cloud text-lg"></i></p>
             </div>
-            <div>
+            <div class="border-r-0 xl:border-r-2 xl:border-r-2 mb-2 xl:mb-0"">
               <p>Distance:</p>
               <p>XX km</p>
             </div>
           </section>
         </div>
       </section>
-      <section class="col-start-6 col-end-11 row-start-1 row-end-6 shadow-lg rounded bg-gray-100">
+      <section class="col-start-6 col-end-11 row-start-1 row-end-6 shadow-lg rounded bg-gray-100 mb-12 xl:mb-0">
         <nav class="h-14 bg-myOrange shadow-lg relative rounded flex">
           <p class="text-2xl m-auto">Last walk</p>
         </nav>
-        <div class="flex text-black justify-around">
+        <div class="flex text-black justify-around flex-col xl:flex-row">
           <section class="p-4 pl-10">
-            <p class="pb-2 text-2xl">Route:</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2434.2599793954896!2d16.95195235154391!3d52.40196427969287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47045b127bb5da31%3A0xa12aaf26f02a6aad!2sJana%20Paw%C5%82a%20II%2C%2061-131%20Pozna%C5%84!5e0!3m2!1spl!2spl!4v1626300994310!5m2!1spl!2spl" width="150" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <p class="pb-2 text-2xl text-center xl:text-left">Route:</p>
+            <iframe class="mx-auto xl:mx-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2434.2599793954896!2d16.95195235154391!3d52.40196427969287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47045b127bb5da31%3A0xa12aaf26f02a6aad!2sJana%20Paw%C5%82a%20II%2C%2061-131%20Pozna%C5%84!5e0!3m2!1spl!2spl!4v1626300994310!5m2!1spl!2spl" width="150" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           </section>
           <section class="text-2xl">
-            <div class="py-7">
+            <div class="py-7 text-center xl:text-left">
               <p>Distance:</p>
               <p>XX km</p>
             </div>
-            <div class="pb-7">
+            <div class="pb-7 text-center xl:text-left">
               <p>Pace:</p>
               <p>XX km/h</p>
             </div>
-            <div>
+            <div class="text-center xl:text-left mb-4 xl:mb-0">
               <p>Date:</p>
               <p>DD/MM/YYYY</p>
             </div>
           </section>
         </div>
       </section>
-      <section class="col-start-6 col-end-11 row-start-6 row-end-9 shadow-lg rounded bg-gray-100">
+      <section class="col-start-6 col-end-11 row-start-6 row-end-9 shadow-lg rounded bg-gray-100 mb-12 xl:mb-0">
         <nav class="h-12 bg-myOrange shadow-lg relative rounded flex">
           <p class="text-xl m-auto">Statistics</p>
         </nav>
-          <section class="text-black flex justify-around mt-2">
+          <section class="text-black flex justify-around mt-2 flex-col xl:flex-row">
             <div class="">
               <p class="text-center mb-2">Average distance</p>
-              <div class="w-40 h-40 relative">
+              <div class="w-40 h-40 relative mx-auto mx-0">
                 <svg class="w-40 h-40 relative">
                   <circle cx="70" cy="70" r="70"></circle>
                   <circle cx="70" cy="70" r="70"></circle>
@@ -197,7 +201,7 @@
             </div>
             <div>
               <p class="text-center mb-2">Average pace</p>
-              <div class="w-40 h-40 relative">
+              <div class="w-40 h-40 relative mx-auto mx-0">
                 <svg class="w-40 h-40 relative">
                   <circle cx="70" cy="70" r="70"></circle>
                   <circle cx="70" cy="70" r="70"></circle>
