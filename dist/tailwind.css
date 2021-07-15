@@ -6598,6 +6598,14 @@ video {
   min-height: 100vh;
 }
 
+.min-h-halfScreen {
+  min-height: 75vh;
+}
+
+.min-h-half {
+  min-height: 50vh;
+}
+
 .w-0 {
   width: 0px;
 }
@@ -38564,6 +38572,14 @@ nav i.nav-icon {
     min-height: 100vh;
   }
 
+  .sm\:min-h-halfScreen {
+    min-height: 75vh;
+  }
+
+  .sm\:min-h-half {
+    min-height: 50vh;
+  }
+
   .sm\:w-0 {
     width: 0px;
   }
@@ -69886,6 +69902,14 @@ nav i.nav-icon {
 
   .md\:min-h-screen {
     min-height: 100vh;
+  }
+
+  .md\:min-h-halfScreen {
+    min-height: 75vh;
+  }
+
+  .md\:min-h-half {
+    min-height: 50vh;
   }
 
   .md\:w-0 {
@@ -101212,6 +101236,14 @@ nav i.nav-icon {
     min-height: 100vh;
   }
 
+  .lg\:min-h-halfScreen {
+    min-height: 75vh;
+  }
+
+  .lg\:min-h-half {
+    min-height: 50vh;
+  }
+
   .lg\:w-0 {
     width: 0px;
   }
@@ -132536,6 +132568,14 @@ nav i.nav-icon {
     min-height: 100vh;
   }
 
+  .xl\:min-h-halfScreen {
+    min-height: 75vh;
+  }
+
+  .xl\:min-h-half {
+    min-height: 50vh;
+  }
+
   .xl\:w-0 {
     width: 0px;
   }
@@ -163858,6 +163898,14 @@ nav i.nav-icon {
 
   .\32xl\:min-h-screen {
     min-height: 100vh;
+  }
+
+  .\32xl\:min-h-halfScreen {
+    min-height: 75vh;
+  }
+
+  .\32xl\:min-h-half {
+    min-height: 50vh;
   }
 
   .\32xl\:w-0 {

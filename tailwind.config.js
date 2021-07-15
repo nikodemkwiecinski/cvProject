@@ -30,6 +30,10 @@ module.exports = {
         'halfScreen': '75vh',
         'half': '50vh'
       },
+      minHeight:{
+        'halfScreen': '75vh',
+        'half': '50vh'
+      },
       backgroundColor: theme => ({
         'myOrange': '#FF9F10',
         'mainBgc': '#FFF8F8'
