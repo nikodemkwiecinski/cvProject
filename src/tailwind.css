@@ -37,6 +37,38 @@ div h2 {
 }
 
 
+::-webkit-input-placeholder {
+  color: black;
+}
+
+::-moz-placeholder {
+  color: black;
+}
+
+::-ms-placeholder {
+  color: black;
+}
+
+::placeholder {
+  color: black;
+}
+
+.filter {
+  filter: blur(10px);
+}
+
+.infilter {
+  filter: unset;
+}
+
+.invis {
+  @apply invisible;
+}
+
+.vis {
+  @apply visible;
+}
+
 .table section div {
   @apply border-r-2;
   @apply border-solid;

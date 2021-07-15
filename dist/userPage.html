@@ -16,6 +16,36 @@
   <script src="https://kit.fontawesome.com/c5d4e6fb7f.js"></script>
 </head>
 <body class="font-body">
+  <section class="loop invisible fixed top-2/4 left-2/4 transform -translate-y-2/4 -translate-x-2/4 bg-mainBgc text-black w-half h-half z-10 rounded">
+    <nav class="text-center my-4 relative">
+      <span class="text-2xl">Filter your walks</span>
+      <i class="far fa-times-circle absolute right-2 top-0.5 cursor-pointer"></i>
+    </nav>
+    <form action="" class="mt-12">
+      <label for="" class="flex justify-around">
+        <input type="text" name="Location input" id="" placeholder="Location input" class="h-16 w-80 shadow-lg rounded">
+        <input type="text" name="Date input" id="" placeholder="Date input" class="h-16 shadow-lg w-80 rounded">
+      </label>
+      <label for="" class="flex justify-around mt-12 text-xl">
+        <div class="bg-white shadow-lg rounded w-48 h-16">
+          <p class="text-center">Highest distance</p>
+          <input type="radio" name="distance" id="" class="mx-auto block my-2">
+        </div>
+        <div class="bg-white shadow-lg rounded w-48 h-16">
+          <p class="text-center">Lowest distance</p>
+          <input type="radio" name="distance" id="" class="mx-auto block my-2">
+        </div>
+        <div class="bg-white shadow-lg rounded w-48 h-16">
+          <p class="text-center">Highest pace</p>
+          <input type="radio" name="distance" id="" class="mx-auto block my-2">
+        </div>
+      </label>
+      <label for="" class="flex mt-20">
+        <input type="submit" value="Search" class="mx-auto w-52 h-12 rounded shadow-lg bg-myOrange cursor-pointer">
+      </label>
+    </form>
+    <div></div>
+  </section>
   <nav class="user-nav h-16 bg-myOrange shadow-lg relative text-white grid grid-rows-1 grid-cols-5 sm:grid-cols-5 md:grid-cols-10 xl:grid-cols-13">
     <i class="nav-icon fas fa-search leading-11 text-3xl cursor-pointer col-start-5 sm:col-start-5 md:col-start-8 xl:col-start-11 xl:pr-4 text-center"></i>
     <p class="nav-text break-words px-6 text-center py-2 col-start-1 col-end-4 sm:col-start-6 sm:col-end-6 md:col-start-9 md:col-end-11 xl:col-start-12 xl:col-end-13">
@@ -185,5 +215,6 @@
       &copy; Nikodem Kwieciński 2021
     </p>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>

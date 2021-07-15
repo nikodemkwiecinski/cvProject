@@ -6434,6 +6434,10 @@ video {
   height: 75vh;
 }
 
+.h-half {
+  height: 50vh;
+}
+
 .max-h-0 {
   max-height: 0px;
 }
@@ -6860,6 +6864,10 @@ video {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
+}
+
+.w-half {
+  width: 50vw;
 }
 
 .min-w-0 {
@@ -32377,6 +32385,46 @@ div h2 {
   color: #111;
 }
 
+::-webkit-input-placeholder {
+  color: black;
+}
+
+::-moz-placeholder {
+  color: black;
+}
+
+::-ms-placeholder {
+  color: black;
+}
+
+::-moz-placeholder {
+  color: black;
+}
+
+:-ms-input-placeholder {
+  color: black;
+}
+
+::placeholder {
+  color: black;
+}
+
+.filter {
+  filter: blur(10px);
+}
+
+.infilter {
+  filter: unset;
+}
+
+.invis {
+  visibility: hidden;
+}
+
+.vis {
+  visibility: visible;
+}
+
 .table section div {
   border-right-width: 2px;
   border-style: solid;
@@ -38323,6 +38371,10 @@ nav i.nav-icon {
     height: 75vh;
   }
 
+  .sm\:h-half {
+    height: 50vh;
+  }
+
   .sm\:max-h-0 {
     max-height: 0px;
   }
@@ -38749,6 +38801,10 @@ nav i.nav-icon {
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
+  }
+
+  .sm\:w-half {
+    width: 50vw;
   }
 
   .sm\:min-w-0 {
@@ -69609,6 +69665,10 @@ nav i.nav-icon {
     height: 75vh;
   }
 
+  .md\:h-half {
+    height: 50vh;
+  }
+
   .md\:max-h-0 {
     max-height: 0px;
   }
@@ -70035,6 +70095,10 @@ nav i.nav-icon {
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
+  }
+
+  .md\:w-half {
+    width: 50vw;
   }
 
   .md\:min-w-0 {
@@ -100895,6 +100959,10 @@ nav i.nav-icon {
     height: 75vh;
   }
 
+  .lg\:h-half {
+    height: 50vh;
+  }
+
   .lg\:max-h-0 {
     max-height: 0px;
   }
@@ -101321,6 +101389,10 @@ nav i.nav-icon {
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
+  }
+
+  .lg\:w-half {
+    width: 50vw;
   }
 
   .lg\:min-w-0 {
@@ -132181,6 +132253,10 @@ nav i.nav-icon {
     height: 75vh;
   }
 
+  .xl\:h-half {
+    height: 50vh;
+  }
+
   .xl\:max-h-0 {
     max-height: 0px;
   }
@@ -132607,6 +132683,10 @@ nav i.nav-icon {
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
+  }
+
+  .xl\:w-half {
+    width: 50vw;
   }
 
   .xl\:min-w-0 {
@@ -163467,6 +163547,10 @@ nav i.nav-icon {
     height: 75vh;
   }
 
+  .\32xl\:h-half {
+    height: 50vh;
+  }
+
   .\32xl\:max-h-0 {
     max-height: 0px;
   }
@@ -163893,6 +163977,10 @@ nav i.nav-icon {
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
+  }
+
+  .\32xl\:w-half {
+    width: 50vw;
   }
 
   .\32xl\:min-w-0 {

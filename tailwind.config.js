@@ -23,8 +23,12 @@ module.exports = {
       textColor:{
         'myGray': '#C7BDBD'
       },
+      width:{
+        'half': '50vw'
+      },
       height:{
-        'halfScreen': '75vh'
+        'halfScreen': '75vh',
+        'half': '50vh'
       },
       backgroundColor: theme => ({
         'myOrange': '#FF9F10',
