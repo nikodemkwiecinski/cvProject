@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 svg circle {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   fill: none;
   stroke-width: 10;
   stroke: #000;
